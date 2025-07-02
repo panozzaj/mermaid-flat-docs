@@ -1,0 +1,8 @@
+#!/bin/bash
+
+src="../mermaid/docs"
+dest="./docs"
+cp $src/intro/*.md $dest
+cp $src/syntax/*.md $dest
+cp $src/config/accessibility.md $dest
+cp $src/config/math.md $dest
